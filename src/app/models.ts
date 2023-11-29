@@ -1,4 +1,5 @@
 export interface IGame {
+  id: number;
   background_image: string;
   name: string;
   raleased: string;

@@ -1,0 +1,28 @@
+<div class="detail">
+  <div class="game-banner">
+    <img class="game-banner-img" src="img" alt="name" />
+  </div>
+  <div class="game-content">
+    <div class="detail-wrapper">
+      <div class="game-header">
+        <h1>Game name</h1>
+        <h2>Release: 1.2.2002</h2>
+        <p>
+          <span>RPG</span>
+        </p>
+        <div class="game-gauge">
+          <mwl-gauge
+            class="two"
+            [max]="100"
+            [dialStartAngle]="180"
+            [dialEndAngle]="0"
+            [value]="gameRating"
+            [color]="getColor"
+            [animationDuration]="2"
+          ></mwl-gauge>
+          <a class="game-gauge-label" target="_blank" href="">Metracritic</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
