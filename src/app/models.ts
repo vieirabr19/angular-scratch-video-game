@@ -11,7 +11,7 @@ export interface IGame {
   parent_platforms: IParentPlatform[];
   publishers: IPublishers[];
   ratings: IRating[];
-  short_screenshots: IShortScreenshot[];
+  screenshots: IShortScreenshot[];
   trailers: ITrailer[];
 }
 
